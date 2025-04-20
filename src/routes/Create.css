@@ -1,0 +1,71 @@
+/* Create.css */
+
+.create-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: grey;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .crewmates-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .crewmate-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .crewmate-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .crewmate-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .color-options {
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .color-options legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .radio-option {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .radio-option input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #1976d2;
+  }
+  
